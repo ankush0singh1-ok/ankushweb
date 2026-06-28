@@ -1,0 +1,401 @@
+<html>
+    <head>
+        <title>
+            FIRST WEB PAGE
+        </title>
+        <link rel="icon" href="ff.jpg">
+        <style>
+            #outer
+            {
+                height: 2800px;
+                width: 1200px;
+                display: flex;
+                flex-direction: column;
+                background-color:white;
+
+            }
+            #header
+            {
+                height: 150px;
+                width: 1200px;
+                background-color: rgb(229, 229, 229);
+                padding:0px 150px;
+                box-sizing: border-box;
+            }
+            #top
+            {
+                height: 100px;
+                width:900px ;
+               
+                margin-bottom: 10px;
+            }
+            .a
+            {
+                height: 150px;
+                width: 300px;
+                float: left;
+                background-repeat: no-repeat;
+                background-size: cover;
+                font-size: 30px;
+                font-family: cursive;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+            #menu
+            {
+                height: 60px;
+                width: 900px;
+                line-height: 15px;
+                margin-right: 150px;
+                box-sizing: border-box;
+                background:rgba(4, 4, 249,.7);
+                color: black;
+                font-size: 20px;
+                font-weight: bold;
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                margin: 0px auto;
+                border-radius: 0px 0px 10px 10px;
+            }
+            #menu ul li
+            {
+                list-style-type: none;
+                float: left;
+                margin-right: 55px;
+                transition: .5s;
+                color: white;
+            }
+            #menu ul li:hover
+            {
+                transform: scale(1.2);
+                transition: all .5s;
+                color: yellow;
+
+            }
+            #scroll
+            {
+                height: 430px;
+                width: 1200px;
+                padding: 50px;
+                box-sizing: border-box;
+                background:linear-gradient(rgba(255,255,255,.6)), url(Gemini_Generated_Image_o8lhxro8lhxro8lh.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: blue;
+            }
+            #alpha
+            {
+                height: 430px;
+                width: 600px;
+                font-family: cursive;
+                font-size: 60px;
+                float: left;
+            }
+            #alpha2
+            {
+                height: 150px;
+                width: 500px;
+                font-family: cursive;
+                font-size: 20px;
+                float:right;
+                line-height: 150px;
+                text-align: center;
+                color: black;
+            }
+            #footer
+            {
+                height: 10px;
+                width: 1140px;
+                background-color: darkgrey;
+                line-height:20px;
+                float: left;
+                padding: 30px;
+                position: fixed;
+                left:8;
+                right:0;
+                bottom:0;
+                border-radius: 20px 20px 0px 0px;
+                
+            }
+            .x
+            {
+                height: 10px;
+                width: 300px;
+                float: left;
+                padding-left: 90px ;
+                font-family: cursive;
+            }
+            .text
+            {
+                margin-top: 20px;
+                color: black;
+                font-family: cursive;
+                margin-bottom: 20px;
+            }
+            .t
+            {
+                height: 200px;
+                width: 500px;
+                float: left;
+                background-color:lightblue;
+                padding: 30px;
+                box-sizing: border-box;
+                margin: 50px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                transition: all 1s;
+            }
+            .t1
+            {
+                height: 200px;
+                width: 500px;
+                float: left;
+                background-color:lightblue;
+                padding: 30px;
+                box-sizing: border-box;
+                margin: 50px;
+                border-radius: 10px;
+                margin-bottom: 30px;
+                transition: all 1s;
+            }
+            #k
+            {
+                height: 300px;
+                width: 1100px;
+                text-align: center;
+                background-color: lightblue;
+                padding: 30px;
+                box-sizing: border-box;
+                margin-left: 50px;
+                border-radius: 20px;
+                transition: all 1s;
+            }
+            .g
+            {
+                height: 400px;
+                width: 1200px;
+                padding: 30px;
+                box-sizing: border-box;
+                background-color: lightblue;
+                border-radius: 30px;
+                margin-bottom: 30px;
+            }
+            .e
+            {
+                height: 300px;
+                width: 300px;
+                float: left;
+                margin-left: 60px;
+                border-radius: 10px;
+            }
+            img{
+                width: 300px;
+                height: 300px;
+                border-radius: 10px;
+                transition: all 1s;
+            }
+            #qw
+            {
+                height: 50px;
+                width: 100px;
+                font-family: cursive;
+                font-size: 30px;
+                text-align: center;
+                margin: 5px auto;
+                display: flow-root;
+                padding: 10px;
+                background-color: lightblue;
+                border-radius: 10px;
+            }
+            #contact
+            {
+                height: 50px;
+                width: 200px;
+                font-family: cursive;
+                font-size: 30px;
+                text-align: center;
+                margin: 5px auto;
+                background-color: lightblue;
+                border-radius: 12px;
+            }
+            #done
+            {
+                height: 200px;
+                width: 1100px;
+                background-color: lightblue;
+                margin: 0px auto;
+                border-radius: 30px;
+            }
+            .d
+            {
+                height: 300px;
+                width: 500px;
+                background-color: lightblue;
+                margin: 0px auto;
+                border-radius: 30px; 
+                float: left;
+                padding: 25px;
+                transition: all 2s;
+                
+            }
+            .d1
+            {
+                height: 100px;
+                width: 450px;
+                padding: 20px 25px;
+                font-size: 25px;
+                font-family: cursive;
+            }
+            #p
+            {
+                height: 50px; width: 150px; border: 3px solid black; border-radius: 10px;background-color: red;color: white; font-size: 20px;font-family: cursive;
+                transition: all 1s;
+            }
+            #p:hover
+            {
+                transform: scale(1.3);
+                color: black;
+                background-color: green;
+                transition: all 1s;
+            }
+            .t:hover
+            {
+                transform: translate(320px) scale(1.2);
+                transition: all 1s;
+            }
+            .t1:hover{
+                transform: translate(-320px) scale(1.2);
+                transition: all 1s;
+            }
+            #k:hover
+            {
+                box-shadow: 5px 5px 15px blue, -5px -5px 15px blue,5px -5px 15px blue,-5px 5px 15px blue;
+                transition: all 1s;
+            }
+            .cs1:hover
+            {
+                transform: translate(200px) scale(1.2);
+                transition: all 1s;
+            }
+             .cs2:hover
+            {
+                transform: translate(0px) scale(1.2);
+                transition: all 1s;
+            }
+             .cs3:hover
+            {
+                transform: translate(-200px) scale(1.2);
+                transition: all 1s;
+            }
+            .d:hover
+            {
+                transition: all 1s;
+                background-color: aqua  ;
+            }
+        </style>
+        <script>
+        alert
+        (
+            "Welcome To Aztech Technology"
+        )
+    </script>
+    </head>
+    <body>
+        <div id="outer">
+            <div id="header">
+                <div id="top">
+                    <div class="a" style="background: url(Gemini_Generated_Image_ydkzcrydkzcrydkz.png);"></div>
+                    <div class="a"> Contact US <u>+917309227544</u></div>
+                    <div class="a"> Mail us <u>aztech@gmail.com</u></div>
+                </div>
+                
+            </div>
+            <div id="menu">
+                    <ul>
+                        <li><a>Home</a></li>
+                        <li><a> Gallery</a></li>
+                        <li><a> Works</a></li>
+                        <li><a> About Us</a></li>
+                        <li><a> Register</a></li>
+                        <li><a> Login</a></li>
+                        <li><a> Services</a></li>
+                    </ul>
+                </div>
+            <div id="scroll">
+                <div id="alpha"> Aztech is IT company that is being developed by <br> <u><b> Ankush Singh</b> </u></div>
+                <div id="alpha2">
+                    <div>Thankyou For Visiting Our Site</div> 
+                    <div style="font-size: 30px;"> GO TO Feedback SECTION &nbsp;&nbsp;<form>
+                                                                                             <button id="p" type="submit">Feedback</button>
+                                                                                      </form>
+                    </div>
+                </div>
+            </div>
+            <div class="text">
+                <div class="t"> <B>Why Choose To Us?</B><br>
+                               <ul>
+                                <li>Time Management</li>
+                                <li>All Language Coding</li>
+                                <li>Precision</li>
+                                <li>Accuracy</li>
+                               </ul>
+                </div>
+                <div class="t1"> <b>Our Projects</b><br>
+                                <ol>
+                                    <li>VibeZone </li>
+                                    <li>Free Fire</li>
+                                    <li>BGMI</li>
+                                    <li>Instagram</li>
+                                </ol>
+                </div>
+                <div style="font-family: cursive; font-size: 40px;text-align: center;margin: 20px auto; background-color: lightblue; width: 250px; display: flow-root; border-radius: 30px;padding: 5px;"> <u>About US</u></div>
+                <div id="k"><b style="font-size: 20px;"><u>Aztech IT | Empowering Progress through Technology</u></b> <br><br>
+                                                          We are a forward-thinking IT solutions provider dedicated to transforming businesses through cutting-edge technology and seamless digital integration. <br><br>
+                                                           <b style="font-size: 20px;"><u>Who We Are</u></b><br><br>
+                                                              At Aztech IT, we bridge the gap between complex technology and your core business objectives.
+                                                          Our team of seasoned engineers, developers, and tech strategists work tirelessly to deliver robust, scalable, and secure IT infrastructure tailored to your unique needs. <br><br>
+                </div>
+            </div>
+            <div id="gallery">
+                <div id="qw"> <u>Gallery</u></div><br><br>
+                <div class="g">
+                    <div class="e"><img class="cs1" src="webimage/i1.jpg" alt="imagenotfound"></div>
+                    <div class="e"><img class="cs2" src="webimage/i2.jpg" alt="imagenotfound"></div>
+                    <div class="e"><img class="cs3" src="webimage/i3.jpg" alt="imagenotfound"></div>
+                </div>
+                <div class="g">
+                    <div class="e"> <img class="cs1" src="webimage/i4.jpg" alt="imagenotfound"></div>
+                    <div class="e"><img class="cs2" src="webimage/i5.jpg" alt="imagenotfound"></div>
+                    <div class="e"><img class="cs3" src="webimage/i6.jpg" alt="imagenotfound"></div>
+                </div>
+            </div>
+            <div id="Contact"> <b><u>Contact US</u></b></div>
+            <div id="done">
+                <div class="d">
+                    <div class="d1"> 📞 Whatsapp No. <br>
+                                  <u> +91 73092 27544 </u> 
+                    </div>
+                    <div class="d1"> ☎️  Mobile No. <br>
+                                   <u> +91 83292 71550</u>
+                    </div>
+                </div>
+                <div class="d">
+                    <div class="d1"> ✉️ E-mail <br>
+                                    <u>aztech@gmail.com</u>
+                    </div>
+                    <div class="d1"> 📍 Location <br>
+                                     Bikram Bishunpur, Deoria, Uttar Pradesh, 274201
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div id="footer">
+               <div class="x">Made With 💗 By Ankush Singh </div> <div class="x" style="width: 250px;">&copy;2026</div>  <div class="x">&reg;All rights Reserved</div>
+            </div>
+        </div>
+    </body>
+</html>
